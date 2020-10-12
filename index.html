@@ -5,45 +5,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="styles.css">
+    <title>I am</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
-    <div class="primary__line"></div>
-    <div class="wrapper">
-        <header class="wrapper__header">
-            <div class="wrapper__post">@post.com</div>
-
-            <div class="wrapper__up">
-                <div class="header__logo">
-                    <img class="img" src="logo.png" alt="img">
-                </div>
-
-                <nav class="header__nav">
-                    <ul class="nav">
-                        <li class="nav__item"><a href="#" class="nav__link">HOME</a></li>
-                        <li class="nav__item" id="portfolio"><a href="#" class="nav__link">PORTFOLIO</a></li>
-                        <li class="nav__item"><a href="#" class="nav__link">SERVICES</a></li>
-                        <li class="nav__item"><a href="#" class="nav__link">BLOG</a></li>
-                        <li class="nav__item"><a href="#" class="nav__link">CONTACT ME</a></li>
-                    </ul>
-                </nav>
-            </div>
-
-        </header>
-
-        <div class="uppercase">
-            <h1>
+    <div class="primaryLine"></div>
+    <header class="container header">
+        <a href="#">
+            <img class="logo" src="assets/logo.png" alt="logo">
+        </a>
+        <nav class="headerNav">
+            <ul class="nav">
+                <li><a href="#" class="navLink">HOME</a></li>
+                <li><a href="#" class="navLink">PORTFOLIO</a></li>
+                <li><a href="#" class="navLink">SERVICES</a></li>
+                <li><a href="#" class="navLink">BLOG</a></li>
+                <li><a href="#" class="navLink">CONTACT ME</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="main">
+        <div class="container banner">
+            <h1 class="h1-dontLaught">
                 "You don’t laugh a lot,
                 laughter prolongs life,
                 and when shit-coders
                 live long - it's bad" (c)
             </h1>
 
-            <img class="myPhoto" src="iam.png" width="200" height="222" alt="image">
-            <img class="devices" src="devices.png" width="150" height="120" alt="image">
+            <img class="iAmIMG" src="assets/iam.png" alt="i_am">
+            <img class="devicesIMG" src="assets/devices.png" alt="devices">
 
         </div>
 
@@ -111,7 +105,7 @@
             </div>
         </div>
 
-    </div>
+    </main>
     <footer class="footer">
         <div class="copyright wrapper"><small>&copy; Shevchenko Nikita 2019</small></div>
     </footer>
